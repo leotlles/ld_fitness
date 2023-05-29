@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LD Fitness - A sua academia</title>
+  <title>LD Fitness</title>
+  <link rel="stylesheet" type="text/css" href="/ld_fitness/css/styles.css">
+  <link rel="stylesheet" href="/ld_fitness/img/background.jpg">
 </head>
 <body>
-    <header>
-
-    </header>
-    <section>
-       <h1>start</h1>
-    </section>
+  <div class="login-container">
+    <h1>LD Fitness</h1>
+    <form>
+      <div class="form-group">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div class="form-group">
+        <input type="submit" value="ENTRAR">
+      </div>
+    </form>
+  </div>
 </body>
 </html>
