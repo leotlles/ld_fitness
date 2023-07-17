@@ -12,18 +12,18 @@ body {
   font-family: Arial, sans-serif;
 }
 
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #f5ede6;
+}
+
 .login-container {
   background-color: #9f4c04;
   padding: 40px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   animation: fadeIn 1s ease-in-out;
-}
-
-h1 {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #f5ede6;
 }
 
 .form-group {
