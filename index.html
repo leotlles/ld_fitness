@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LD Fitness</title>
+  <link rel="stylesheet" type="text/css" href="/ld_fitness/css/styles.css">
+  <link rel="stylesheet" href="/ld_fitness/img/background.jpg">
+</head>
+<body>
+  <div class="login-container">
+    <h1>LD Fitness</h1>
+    <form action="envio-emails.php" method="post">
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="goal">Escolha seu objetivo: </label>
+          <select name="objetivo" id="objetivo">
+              <option value="bulking">Ganhar massa muscular</option>
+              <option value="cutting">Perder peso</option>
+            </optgroup>
+              <option value="esporte">Esporte</option>
+              <option value="birl">Bodybuilding</option>
+            </optgroup>
+          </select>
+      </div>
+
+      <div class="form-group">
+        <input type="submit" value="ENTRAR">
+      </div>
+
+      <div class="text-subscribe">
+        <h1>Digite seu email para saber mais!</h1>
+      </div>
+
+      
+    </form>
+  </div>
+</body>
+</html>
